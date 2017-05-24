@@ -1,0 +1,49 @@
+body
+{
+    background : url("../img/srko.gif");
+    background-size: cover;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover 
+{
+    background-color: #111;
+}
+
+table
+{
+    width:60%;
+    margin-left: 20%;
+    opacity: 0.9;
+}
+td {
+    border: black 1px solid;
+    padding-bottom: 30px;
+    width: 12%;
+    background-color: #1B1417;
+    color:#8BFEF5;
+    text-align: center;
+}
+.form-control{
+    width: 50%;
+}

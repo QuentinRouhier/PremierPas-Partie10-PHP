@@ -1,0 +1,60 @@
+body
+{
+    background : url("../img/sar.gif");
+    background-size: cover;
+}
+p 
+{
+    background-color: silver;
+    width: 50%;
+    border-radius: 50px; 
+    text-align: center;
+    box-shadow: 100px 100px 100px 100px green ;
+    margin-left: 5%;
+    border : 10px solid black
+
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover 
+{
+    background-color: #111;
+}
+
+table
+{
+    width:60%;
+    margin-left: 20%;
+    opacity: 0.9;
+}
+td {
+    border: black 1px solid;
+    padding-bottom: 30px;
+    width: 12%;
+    background-color: #1B1417;
+    color:#8BFEF5;
+    text-align: center;
+}
+.form-control{
+    width: 50%;
+}
